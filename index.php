@@ -81,7 +81,7 @@ LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuunnnnnn    nnnnnniiiiiiii
                 </form>
 
                 <h2 class="card-title h2 my-4 py-2">
-                
+
                     <a class="weatherwidget-io" href="https://forecast7.com/fr/49d764d73/charleville-mezieres/"
                         data-label_1="CHARLEVILLE-MÉZIÈRES" data-theme="original">CHARLEVILLE-MÉZIÈRES</a>
                     <script>
@@ -161,7 +161,7 @@ LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuunnnnnn    nnnnnniiiiiiii
     </div>
 
     <div class="parallax-element" id="Discord" data-parallax="scroll"
-        data-image-src="https://assets.blacknutlemag.com/edito/discord-c-est-quoi/discord-c-est-quoi-hero-169_md.jpg"
+        data-image-src="http://127.0.0.1/localhost/img/discord.png"
         alt="" id="">
         <div class="text-white text-center rgba-stylish-strong py-5 px-4">
             <div class="py-5">
@@ -176,7 +176,32 @@ LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuunnnnnn    nnnnnniiiiiiii
                     <a class="btn btn-light peach-gradient" href="https://disboard.org/fr/dashboard/servers">
                         Disboard</a>
                     <a class="btn btn-light peach-gradient" href="#">
-                        Devcord</a>
+                        Devcord</a> <br><br>
+
+                    <article>
+                        <h1>
+                              <img src="https://twemoji.maxcdn.com/2/72x72/1f1ea.png" class="picto">
+                                    <img src="https://twemoji.maxcdn.com/2/72x72/24c2.png" class="picto">
+                                    <img src="https://twemoji.maxcdn.com/2/72x72/2b55.png" class="picto">
+                                    <img src="https://twemoji.maxcdn.com/2/72x72/1f1ef.png"class="picto">
+                                    <img src="https://twemoji.maxcdn.com/2/72x72/2139.png" class="picto">&nbsp;&nbsp;&nbsp;
+                                    <img src="https://twemoji.maxcdn.com/2/72x72/1f1f9.png" class="picto">
+                                    <img src="https://twemoji.maxcdn.com/2/72x72/1f1ea.png" class="picto">
+                                    <img src="https://twemoji.maxcdn.com/2/72x72/1f1fd.png" class="picto">
+                                    <img src="https://twemoji.maxcdn.com/2/72x72/1f1f9.png" class="picto">
+                                    <span></h1>
+                        <p>
+                            <label>Ton texte :</label> <input classe="input_discord" type="text" id="input">
+                        </p>
+                        <p><label>A mettre dans Discord :</label></p>
+                        <textarea classe="input_discord" id="output" readonly></textarea>
+                        <p>
+                            <label>Visuelle :</label> <span id="preview"></span>
+                        </p>
+                    </article>
+                    <!-- partial -->
+                    <script src="./script.js"></script>
+
             </div>
         </div>
     </div>
@@ -231,7 +256,7 @@ LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuunnnnnn    nnnnnniiiiiiii
 
     <!-- LE JS -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-    <script src="./script.js"></script>
+    <script src="./btt.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>

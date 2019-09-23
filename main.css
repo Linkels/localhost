@@ -116,3 +116,44 @@ body {
     font-style: italic;
     color: #96a2a7;
   }
+
+  
+article { margin: 14px; }
+h1 {
+	position: relative;
+	margin-bottom: 21px;
+	font-family: 'Shadows Into Light', cursive;
+}
+h1 span {
+	position: absolute;
+	left: 240px;
+	top: 17px;
+}
+p { margin-bottom: 14px;  }
+label {
+	display: inline-block;
+	margin: 14px;
+	color: #fff;
+}
+.input_discord[type=text], #output {
+	padding: 7px;
+	border: 1px solid rgb(160,160,160);
+	background: transparent;
+	font-size: 1em;
+	color: #ddd;
+}
+#output {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	max-width: 800px;
+	height: 200px;
+	overflow-y: auto;
+	margin: 14px 0;
+	font-family: "Open Sans", "Century Gothic", "Calibri", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#preview { color: #fff; }
+.picto {
+	width: 21px;
+	margin-right: 3px;
+}
