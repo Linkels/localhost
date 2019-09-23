@@ -100,7 +100,8 @@ LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuunnnnnn    nnnnnniiiiiiii
                         Drive</a>
                     <a class="btn btn-light peach-gradient" href="https://play.google.com/music/listen?hl=fr&u=0#/home">
                         Google Musique</a>
-                    <a class="btn btn-light peach-gradient" href="https://play.google.com/books?utm_source=emea_Med&utm_medium=hasem&utm_content=May2715&utm_campaign=Evergreen&pcampaignid=MKT-EG-emea-fr-all-Med-hasem-bk-Evergreen-May2715-1%7CONSEM_kwid_43700007275018831&gclid=CjwKCAjw2qHsBRAGEiwAMbPoDBC4a5JrmnpktmT-ehtmZDNRD1E3DoQPgbhGSUM2KNT7kazzYbyP6BoC0uAQAvD_BwE&gclsrc=aw.ds">
+                    <a class="btn btn-light peach-gradient"
+                        href="https://play.google.com/books?utm_source=emea_Med&utm_medium=hasem&utm_content=May2715&utm_campaign=Evergreen&pcampaignid=MKT-EG-emea-fr-all-Med-hasem-bk-Evergreen-May2715-1%7CONSEM_kwid_43700007275018831&gclid=CjwKCAjw2qHsBRAGEiwAMbPoDBC4a5JrmnpktmT-ehtmZDNRD1E3DoQPgbhGSUM2KNT7kazzYbyP6BoC0uAQAvD_BwE&gclsrc=aw.ds">
                         Google Livre</a>
             </div>
         </div>
@@ -165,33 +166,50 @@ LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuunnnnnn    nnnnnniiiiiiii
         </div>
     </div>
 
-    <div class="parallax-element" id="Outil" id="Discord" data-parallax="scroll" data-image-src="http://127.0.0.1/localhost/img/outil.png" alt="" id="">
+    <div class="parallax-element" id="Outil" id="Discord" data-parallax="scroll"
+        data-image-src="http://127.0.0.1/localhost/img/outil.png" alt="" id="">
         <div class="text-white text-center rgba-stylish-strong py-5 px-4">
             <div class="py-5">
                 <!-- <h1><img src="http://127.0.0.1/localhost/img/devcord.png" width="200px;" alt=""></h1> -->
                 <h2 class="card-title h2 my-4 py-2">Espace Outil
                     <p class="mb-4 pb-2 px-md-5 mx-md-5">
-                    </p>  
+                    </p>
                     <a class="btn btn-light peach-gradient" href="https://pixabay.com/fr/">
-                    pixabay</a> 
+                        pixabay</a>
                     <a class="btn btn-light peach-gradient" href="https://fontawesome.com/">
                         fontawesome</a>
                     <a class="btn btn-light peach-gradient" href="https://getbootstrap.com/">
                         Bootstrap</a>
                     <a class="btn btn-light peach-gradient" href="https://codepen.io/">
                         Code pen</a>
-                    <a class="btn btn-light peach-gradient" href="https://www.onlinevideoconverter.com/fr/youtube-converter">
-                        Youtube MP3-4</a> 
+                    <a class="btn btn-light peach-gradient"
+                        href="https://www.onlinevideoconverter.com/fr/youtube-converter">
+                        Youtube MP3-4</a>
                     <a class="btn btn-light peach-gradient" href="https://www.draw.io/">
-                        Draw.io</a>  
+                        Draw.io</a>
                     <a class="btn btn-light peach-gradient" href="https://www.chartjs.org/">
-                    chartjs</a> 
-                        
-                        <br><br>
+                        chartjs</a>
+
+                    <br><br>
 
                     <script src="jscolor.js"></script>
 
-                    Color: <input class="jscolor" value="0ff">
+                    Color: <input id="to-copy" class="jscolor" value="0ff">
+
+
+                    <button id="copy" type="button">Copier la couleur</button>
+
+                    <script>
+                        var toCopy = document.getElementById('to-copy'),
+                            btnCopy = document.getElementById('copy');
+
+                        btnCopy.addEventListener('click', function () {
+                            toCopy.select();
+                            document.execCommand('copy');
+                            return false;
+                        });
+                    </script>
+
             </div>
         </div>
     </div>
