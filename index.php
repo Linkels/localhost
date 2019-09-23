@@ -18,6 +18,7 @@ L::::::::::::::::::::::L u:::::::::::::::un::::n    n::::ni::::::i
 L::::::::::::::::::::::L  uu::::::::uu:::un::::n    n::::ni::::::i
 LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuunnnnnn    nnnnnniiiiiiii 
 -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,8 +27,8 @@ LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuunnnnnn    nnnnnniiiiiiii
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <!-- Fin des liens pour parallax -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -54,6 +55,9 @@ LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuunnnnnn    nnnnnniiiiiiii
                 <li class="nav-item active">
                     <a class="nav-link" href="#Discord">Discord</a>
                 </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Outil">Outil</a>
+                </li>
             </ul>
             <span class="navbar-text">
                 WORKSPACE BY LUNI
@@ -64,8 +68,8 @@ LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuunnnnnn    nnnnnniiiiiiii
     <!-- Back to top button -->
     <a id="button"></a>
 
-    <div class="parallax-element" data-parallax="scroll" data-image-src="http://127.0.0.1/localhost/img/google.png" alt=""
-        id="">
+    <div class="parallax-element" data-parallax="scroll" data-image-src="http://127.0.0.1/localhost/img/google.png"
+        alt="" id="">
         <div class="text-white text-center rgba-stylish-strong py-5 px-4">
             <div class="py-5">
                 <h1><img src="http://127.0.0.1/localhost/img/google-logo.png" width="200px;" alt=""></h1>
@@ -94,6 +98,10 @@ LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuunnnnnn    nnnnnniiiiiiii
                         Calendrier</a>
                     <a class="btn btn-light peach-gradient" href="https://drive.google.com/drive/u/0/my-drive">
                         Drive</a>
+                    <a class="btn btn-light peach-gradient" href="https://play.google.com/music/listen?hl=fr&u=0#/home">
+                        Google Musique</a>
+                    <a class="btn btn-light peach-gradient" href="https://play.google.com/books?utm_source=emea_Med&utm_medium=hasem&utm_content=May2715&utm_campaign=Evergreen&pcampaignid=MKT-EG-emea-fr-all-Med-hasem-bk-Evergreen-May2715-1%7CONSEM_kwid_43700007275018831&gclid=CjwKCAjw2qHsBRAGEiwAMbPoDBC4a5JrmnpktmT-ehtmZDNRD1E3DoQPgbhGSUM2KNT7kazzYbyP6BoC0uAQAvD_BwE&gclsrc=aw.ds">
+                        Google Livre</a>
             </div>
         </div>
     </div>
@@ -153,6 +161,37 @@ LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuunnnnnn    nnnnnniiiiiiii
                         Disboard</a>
                     <a class="btn btn-light peach-gradient" href="#">
                         Devcord</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-element" id="Outil" id="Discord" data-parallax="scroll" data-image-src="http://127.0.0.1/localhost/img/outil.png" alt="" id="">
+        <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+            <div class="py-5">
+                <!-- <h1><img src="http://127.0.0.1/localhost/img/devcord.png" width="200px;" alt=""></h1> -->
+                <h2 class="card-title h2 my-4 py-2">Espace Outil
+                    <p class="mb-4 pb-2 px-md-5 mx-md-5">
+                    </p>  
+                    <a class="btn btn-light peach-gradient" href="https://pixabay.com/fr/">
+                    pixabay</a> 
+                    <a class="btn btn-light peach-gradient" href="https://fontawesome.com/">
+                        fontawesome</a>
+                    <a class="btn btn-light peach-gradient" href="https://getbootstrap.com/">
+                        Bootstrap</a>
+                    <a class="btn btn-light peach-gradient" href="https://codepen.io/">
+                        Code pen</a>
+                    <a class="btn btn-light peach-gradient" href="https://www.onlinevideoconverter.com/fr/youtube-converter">
+                        Youtube MP3-4</a> 
+                    <a class="btn btn-light peach-gradient" href="https://www.draw.io/">
+                        Draw.io</a>  
+                    <a class="btn btn-light peach-gradient" href="https://www.chartjs.org/">
+                    chartjs</a> 
+                        
+                        <br><br>
+
+                    <script src="jscolor.js"></script>
+
+                    Color: <input class="jscolor" value="0ff">
             </div>
         </div>
     </div>
