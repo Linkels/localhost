@@ -81,6 +81,21 @@ LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuunnnnnn    nnnnnniiiiiiii
                 </form>
 
                 <h2 class="card-title h2 my-4 py-2">
+                
+                    <a class="weatherwidget-io" href="https://forecast7.com/fr/49d764d73/charleville-mezieres/"
+                        data-label_1="CHARLEVILLE-MÉZIÈRES" data-theme="original">CHARLEVILLE-MÉZIÈRES</a>
+                    <script>
+                        ! function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (!d.getElementById(id)) {
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = 'https://weatherwidget.io/js/widget.min.js';
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }
+                        }(document, 'script', 'weatherwidget-io-js');
+                    </script>
+
                     <p class="mb-4 pb-2 px-md-5 mx-md-5">
                     </p>
                     <a class="btn btn-light peach-gradient" href="https://mail.google.com/mail/u/0/#inbox">
