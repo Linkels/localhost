@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- 
+LLLLLLLLLLL                                                 iiii  
+L:::::::::L                                                i::::i 
+L:::::::::L                                                 iiii  
+LL:::::::LL                                                       
+  L:::::L               uuuuuu    uuuuuunnnn  nnnnnnnn    iiiiiii 
+  L:::::L               u::::u    u::::un:::nn::::::::nn  i:::::i 
+  L:::::L               u::::u    u::::un::::::::::::::nn  i::::i 
+  L:::::L               u::::u    u::::unn:::::::::::::::n i::::i 
+  L:::::L               u::::u    u::::u  n:::::nnnn:::::n i::::i 
+  L:::::L               u::::u    u::::u  n::::n    n::::n i::::i 
+  L:::::L               u::::u    u::::u  n::::n    n::::n i::::i 
+  L:::::L         LLLLLLu:::::uuuu:::::u  n::::n    n::::n i::::i 
+LL:::::::LLLLLLLLL:::::Lu:::::::::::::::uun::::n    n::::ni::::::i
+L::::::::::::::::::::::L u:::::::::::::::un::::n    n::::ni::::::i
+L::::::::::::::::::::::L  uu::::::::uu:::un::::n    n::::ni::::::i
+LLLLLLLLLLLLLLLLLLLLLLLL    uuuuuuuu  uuuunnnnnn    nnnnnniiiiiiii 
+-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +26,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <!-- Fin des liens pour parallax -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -54,7 +73,7 @@
                 <form action="https://www.google.com/search" method="GET">
                     <input class="searchbar" type="text" name="q"
                         placeholder="Effectuez une recherche sur Google ou saisissez une URL">
-                    <input type="submit" value="Google Search" class="btn btn-primary">
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-1x fa-search"></i></button>
                 </form>
 
                 <h2 class="card-title h2 my-4 py-2">
